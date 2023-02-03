@@ -64,3 +64,7 @@
 
 //some sort of congradulations screen with a percentage showing how many they got correct. Maybe the last question will be correct no matter what so nobody gets a 0 on my quiz.
 //here the user will be met with a replay button.
+
+
+
+on click submit 
