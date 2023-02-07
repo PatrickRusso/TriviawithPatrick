@@ -1,72 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+<style>
+body {
+        background-image: url("https://media.istockphoto.com/id/1309235677/photo/audio-workplace-recording-studio-computer-music-studio-3d-rendering.jpg?b=1&s=170667a&w=0&k=20&c=oj8MXz_i9yT2sSr3yTCbeRb1X9r0jUhsEpdgjnZ2Y_c=");
+}
+</style>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <div class="landing-page-container"></div>
     <h1>Welcome user!</h1>
-    <h2>A quiz on music producers</h2>
-<div class="container">
+    <h2>A trivia game on my favorite music producer</h2>
+    <button class="play">Play!</button>
+    <button class="try-again">Try Again!</button>
+
+    <div class="container">
     <!-- QUESTION 1 -->
-    <div class="question-1">
-        <p>Which young producer was responsible for Juice Wrld's hit song, Wishing Well?</p>
-        <ul>
-            <button type="button">a. Nick Mira</button>
-            <button type="button">b. Chopsquad DJ</button>
-            <button type="button">c. Hitboy</button>
-            <button type="button">d. Young Chop</button>
+    <form class="text-white">
+        <label class="text-white" id="question">Test</label>
+        <fieldset style="border: 0">
+            <div>
+                <input type="radio" name="answer-1">
+                <label>Nick Mira</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer-2">
+                <label>Hitboy</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer-3">
+                <label>Chopsquad DJ</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer-4">
+                <label>Young Chop</label>
+            </div>
+            <input type="submit" id="question-submit">
             
-         </ul>
-    </div>
-    <!-- QUESTION 2 -->
-    <div>
-        <p>With Chopsquad DJ being a major influence in modern trap music, which city was he born?</p>
-        <ul>
-            <button type="button">a. Chicago</button>
-            <button type="button">b. Atlanta</button>
-            <button type="button">c. St. Louis</button>
-            <button type="button">d. New York</button>
-            
-         </ul>
-    </div>
-        <!-- QUESTION 3 -->
-        <div>
-            <p>Chopsquad DJ has been playing piano for over a decade now and has earned himself which nickname?</p>
-        <ul>
-            <button type="button">a. The Melody</button>
-            <button type="button">b. Young Chop</button>
-            <button type="button">c. Chop the Great</button>
-            <button type="button">d. Glory Boy</button>
 
-        </ul>
-    </div>
-    <!-- QUESTION 4 -->
-    <div>
-        <p>This producer group involves Chopsquad DJ, DP Beats, Young Chop, and Andy Milonakis:</p>
-        <ul>
-            <button type="button">a. Internet Money</button>
-            <button type="button">b. GGP</button>
-            <button type="button">c. Working on Dying</button>
-            <button type="button">d. Bricksquad</button>
-        </ul>
-    </div>
-    <!-- QUESTION 5 -->
-    <div>
-        <p>Chopsquad DJ is sponsored by this hardware company:</p>
-    <ul>
-            <button type="button">a. Arturia</button>
-            <button type="button">b. Akai</button>
-            <button type="button">c. Yamaha</button>
-            <button type="button">d. Roland</button>
-
-        </ul>
-    </div>
-</div>
-<footer></footer>
+     
+     </fieldset>
+    </form>
+    <footer></footer>
     <script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+.text-white {
+    color: white;
+}
+
+.lined-up {
+    display: inline;
+}
+
+form > label {
+    color: white;
+    font-size: large;
+}
+
+body {
+    color: white;
+}
