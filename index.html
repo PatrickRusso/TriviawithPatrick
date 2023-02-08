@@ -20,32 +20,34 @@ body {
     <button class="try-again">Try Again!</button>
 
     <div class="container">
+        <div id="score">Score 0</div>
     <!-- QUESTION 1 -->
     <form class="text-white">
-        <label class="text-white" id="question">Test</label>
+        <label class="text-white" id="question">Which of the following producers was responsible for Juice Wrld's hit song, Wishing Well?</label>
         <fieldset style="border: 0">
             <div>
-                <input type="radio" name="answer-1">
+                <input id="Q0" class="option" type="radio" name="answer-1">
                 <label>Nick Mira</label>
             </div>
             <div >
-                <input class="option" type="radio" name="answer-2">
+                <input id="Q1" class="option" type="radio" name="answer-2">
                 <label>Hitboy</label>
             </div>
             <div class="option">
-                <input value="true" class="option" type="radio" name="answer-3">
+                <input id="Q2" value="true" class="option" type="radio" name="answer-3">
                 <label>Chopsquad DJ</label>
             </div>
             <div class="option">
-                <input class="option" type="radio" name="answer-4">
+                <input id="Q3" class="option" type="radio" name="answer-4">
                 <label>Young Chop</label>
             </div>
-            <input type="submit" id="question-submit">
+            
             
 
      
      </fieldset>
     </form>
+    <button id="submit-button">Submit</button>
     <footer></footer>
     <script src="index.js"></script>
 </body>
