@@ -54,6 +54,7 @@ let questionIndex = 0
 let submitButton = document.querySelector('#submit-button')
 let scoreElement = document.querySelector('#score')
 let score = 0
+let scoreBoard = document.querySelector('#scoreboard')
 
 
 submitButton.addEventListener("click", () => {
@@ -85,10 +86,14 @@ submitButton.addEventListener("click", () => {
             label.innerHTML = questions[questionIndex][1][optIndex]
             optIndex++
         })
-        
+
         checkedOpt.checked = false
     }
 })
+
+
+
+
 
 
 

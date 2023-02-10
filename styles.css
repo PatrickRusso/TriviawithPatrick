@@ -101,3 +101,28 @@ background-color: lightgreen;
 .lined-up {
   display: inline;
 }
+
+.popUp {
+  display:block;
+  z-index: 20;
+  position: fixed;
+  bottom: 50%;
+  right: 35%;
+  width: 30%;
+  height: 25%;
+  border-radius: 8%;
+  background-color: rgb(48, 48, 99);
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  border-style: groove;
+}
+
+.centered {
+  margin: 0 auto;
+  margin-left: 25%;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 80%;
+  height: 80%;
+
+}
+
