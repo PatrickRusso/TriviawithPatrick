@@ -52,9 +52,12 @@ let questions = [
     ]
 let questionIndex = 0
 let submitButton = document.querySelector('#submit-button')
-let scoreElement = document.querySelector('#score')
+let scoreElement 
 let score = 0
 let scoreBoard = document.querySelector('#scoreboard')
+let name = document.querySelector('#name')
+let nameSubmitButton = document.querySelector("#name-submitButton")
+let username = ""
 
 
 submitButton.addEventListener("click", () => {
@@ -82,13 +85,19 @@ submitButton.addEventListener("click", () => {
         question.innerHTML = questions[questionIndex][0]
 
         labels.forEach(label => {
-                        //    questions array[this gives the question array][]
             label.innerHTML = questions[questionIndex][1][optIndex]
             optIndex++
         })
 
         checkedOpt.checked = false
     }
+})
+
+nameSubmitButton.addEventListener("click", () => {
+    username = name.value
+    scoreBoard.innerHTML = "<p>" + username + "</p>Score: <p id=score> " + score + "</p>"
+    scoreElement = document.querySelector('#score')
+    submitButton.disabled = false
 })
 
 
